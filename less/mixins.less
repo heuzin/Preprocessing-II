@@ -1,1 +1,15 @@
 // Mixins in here
+
+  .btn-style (@border-radius-btn: 12px, @width-btn: 200px, @height-btn: 30px, @font-color-btn: white, @bacground-color-btn: green) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: @border-radius-btn;
+    width: @width-btn;
+    height: @height-btn;
+    position: absolute;
+    font-size: 13px;
+    color: @font-color-btn;
+    background-color: @bacground-color-btn;
+  }
